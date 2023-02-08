@@ -5,7 +5,6 @@ from plotnine import *
 
 
 '''
-Homework 1 problem 8 -- global alignment
 use the simple scoring method of +1 for match and -1 for mismatch and indel
 print the global alignment with one line per string with '-' characters for indels
 '''
