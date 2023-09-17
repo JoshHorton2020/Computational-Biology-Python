@@ -92,5 +92,5 @@ def mutate(s, snp_rate, indel_rate):
 s1 = random_sequence(100)
 s2 = mutate(s1, 0.1, 0.1)
 
-# running your alignment code
+# running alignment code
 global_alignment(s1, s2)
