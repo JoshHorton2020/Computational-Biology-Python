@@ -1,0 +1,1 @@
+new internal node 1 -> node 4 [weight 75] new internal node 1 -> node 5 [weight 82] new internal node 2 -> node 3 [weight 57] new internal node 2 -> node 6 [weight 77] new internal node 3 -> node 0 [weight 73] new internal node 3 -> node 1 [weight 54] new internal node 4 -> node 2 [weight 111] new internal node 4 -> node 7 [weight 119] node 9  - node 8 [weight 61] 
