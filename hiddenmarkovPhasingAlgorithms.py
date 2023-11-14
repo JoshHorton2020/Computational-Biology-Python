@@ -74,11 +74,7 @@ def calculateProbList(hmmMatrix, matrixIndex, states, row):
         outList.append(item)
     return outList
         
-'''
-Homework 4 problem 4
-plot output of problem 3. Here, please make 1 plot with 4 plots overlayed with different colors.
-    
-'''
+
 def plot_MLE(state_sequence):
     tList = []
     aList = []
@@ -100,11 +96,11 @@ def plot_MLE(state_sequence):
     plot = ggplot() + geom_point(aes(x='index', y='state'), data=tDf, color='blue') + geom_point(aes(x='index', y='state'), data=aDf, color='red') + geom_point(aes(x='index', y='state'), data=gDf, color='black') + geom_point(aes(x='index', y='state'), data=cDf, color='green')
     plot.save(filename='plot_MLE.png')
     return plot
+    
 '''
-Homework 4 problem 5
-Give the most likely sequence this data corresponds to given the likely 
-event length you found from plotting the data
-print this sequence of A/C/G/Ts
+The most likely sequence this data corresponds to given the likely 
+event length found from plotting the data
+(printing this sequence of A/C/G/Ts)
 '''
 def MLE_seq(state_sequence, event_length):
     str = ''
